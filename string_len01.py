@@ -6,4 +6,8 @@ def main(a):
     Returns:
         length of string
     """
-    return
+
+
+    return len(a)
+a=(input("matnni kiriting: "))
+print(main(a))
