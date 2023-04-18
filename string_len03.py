@@ -7,4 +7,13 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    if len(a)==len(b):
+        c= True
+    else :
+        c= False
+    return c
+a=input()
+b=input()
+print(main(a,b))
+    
+
